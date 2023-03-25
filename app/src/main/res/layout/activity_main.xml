@@ -64,7 +64,7 @@
         android:layout_marginBottom="3dp"
         android:layout_weight="1"
         android:background="#FFFFFFFF" />
-    <LinearLayout
+  <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -135,11 +135,11 @@
                 android:layout_width="@dimen/large_brush"
                 android:layout_height="@dimen/large_brush"
                 android:layout_margin="2dp"
-                android:background="#00BFFF"
+                android:background="#FF00B0EC"
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF009999"
+                android:tag="#FF00B0EC"
                 tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
             <ImageButton
@@ -150,29 +150,29 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FFFF0000"
+                android:tag="#FF0000FF"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
                 android:layout_width="@dimen/large_brush"
                 android:layout_height="@dimen/large_brush"
                 android:layout_margin="2dp"
-                android:background="#8b00ff"
+                android:background="#FF8B00FF"
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FFFF0000"
+                android:tag="#FF8B00FF"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
                 android:layout_width="@dimen/large_brush"
                 android:layout_height="@dimen/large_brush"
                 android:layout_margin="2dp"
-                android:background="#00000000"
+                android:background="#FFFFFFFF"
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FFFF0000"
+                android:tag="#FFFFFFFF"
                 tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         </LinearLayout>
@@ -190,7 +190,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF0000FF"
+                android:tag="#FFFF0099"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -201,7 +201,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF990099"
+                android:tag="#FFFF6600"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -223,7 +223,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FFFFFFFF"
+                android:tag="#fde910"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -234,7 +234,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF787878"
+                android:tag="#00ff00"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -245,7 +245,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF000000"
+                android:tag="#FF009999"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -256,7 +256,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF990099"
+                android:tag="#a9a9a9"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -267,7 +267,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF990099"
+                android:tag="#FF787878"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
@@ -278,7 +278,7 @@
                 android:contentDescription="@string/paint"
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
-                android:tag="#FF990099"
+                android:tag="#FF000000"
                 tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
